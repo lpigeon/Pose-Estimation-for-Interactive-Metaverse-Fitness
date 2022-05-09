@@ -13,9 +13,15 @@
 * Cudnn 8.1.0
 * Unity
 
+## Version
+* v1 : Photon2와 unitychan_dynamic_locomotion을 이용한 기본적인 네트워크와 공간 구성
+* v2 : 2명 기준 pose estimation
+* v3 : 3명 이상 pose estimation 및 로비, 캐릭터 선정 가능
+* v4 : UI upgrade
 
 ## Reference
 * https://github.com/SrikanthVelpuri/tf-pose
 * https://github.com/Jacob12138xieyuan/real-time-3d-pose-estimation-with-Unity3D
 * https://openaccess.thecvf.com/content_cvpr_2017/papers/Chen_3D_Human_Pose_CVPR_2017_paper.pdf
 * https://junsk1016.github.io/deeplearning/tf-pose-estimation-%EB%B9%8C%EB%93%9C/
+* https://www.youtube.com/watch?v=mXPndbtKbTo
