@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/yoroke/Scenes/yoroke.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
