@@ -4,6 +4,9 @@
 우리는 임베디드 AI 컴퓨팅 플랫폼로부터 나온 자세 추정 데이터를 이용하여 게인엔진인 Unity를 사용하여 멀티 네트워킹(Photon Unity Networking)상황에서 캐릭터가 사용자의 움직임을 
 따라할 수 있게 함으로써 사람 자세 추정을 이용한 Metaverse 시스템의 구현을 목표로 한다.
 
+## Notion
+* https://www.notion.so/5f85d14ce67749229d304be4cbdce208
+
 ## Development Environment
 * Ubuntu 18.04
 * python-opencv 3.4.10
