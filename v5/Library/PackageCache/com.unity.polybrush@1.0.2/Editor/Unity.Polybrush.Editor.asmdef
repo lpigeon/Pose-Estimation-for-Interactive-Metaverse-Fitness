@@ -1,0 +1,17 @@
+{
+    "name": "Unity.Polybrush.Editor",
+    "references": [
+        "Unity.Polybrush",
+        "Unity.Settings.Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
