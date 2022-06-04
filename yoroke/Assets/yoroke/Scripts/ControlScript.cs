@@ -22,27 +22,17 @@ namespace UnityChan
 	public class ControlScript : MonoBehaviourPunCallbacks, IPunObservable
 	{
 
-		public float animSpeed = 1.5f;				// ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³å†ç”Ÿé€Ÿåº¦è¨­å®š
-		public float lookSmoother = 3.0f;			// a smoothing setting for camera motion
-		public bool useCurves = true;				// Mecanimã§ã‚«ãƒ¼ãƒ–èª¿æ•´ã‚’ä½¿ã†ã‹è¨­å®šã™ã‚‹
-		// ã“ã®ã‚¹ã‚¤ãƒƒãƒãŒå…¥ã£ã¦ã„ãªã„ã¨ã‚«ãƒ¼ãƒ–ã¯ä½¿ã‚ã‚Œãªã„
-		public float useCurvesHeight = 0.5f;		// ã‚«ãƒ¼ãƒ–è£œæ­£ã®æœ‰åŠ¹é«˜ã•ï¼ˆåœ°é¢ã‚’ã™ã‚ŠæŠœã‘ã‚„ã™ã„æ™‚ã«ã¯å¤§ããã™ã‚‹ï¼‰
-
-		// ä»¥ä¸‹ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ç”¨ãƒ‘ãƒ©ãƒ¡ã‚¿
-		// å‰é€²é€Ÿåº¦
+		public float animSpeed = 1.5f;				
+		public float lookSmoother = 3.0f;			
+		public bool useCurves = true;				
+		public float useCurvesHeight = 0.5f;		
 		public float forwardSpeed = 7.0f;
-		// å¾Œé€€é€Ÿåº¦
 		public float backwardSpeed = 2.0f;
-		// æ—‹å›žé€Ÿåº¦
 		public float rotateSpeed = 2.0f;
-		// ã‚¸ãƒ£ãƒ³ãƒ—å¨åŠ›
 		public float jumpPower = 3.0f; 
-		// ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ï¼ˆã‚«ãƒ—ã‚»ãƒ«ã‚³ãƒ©ã‚¤ãƒ€ï¼‰ã®å‚ç…§
 		private CapsuleCollider col;
 		private Rigidbody rb;
-		// ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ¼ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ï¼ˆã‚«ãƒ—ã‚»ãƒ«ã‚³ãƒ©ã‚¤ãƒ€ï¼‰ã®ç§»å‹•é‡
 		private Vector3 velocity;
-		// CapsuleColliderã§è¨­å®šã•ã‚Œã¦ã„ã‚‹ã‚³ãƒ©ã‚¤ãƒ€ã®Heihtã€Centerã®åˆæœŸå€¤ã‚’åŽã‚ã‚‹å¤‰æ•°
 		private float orgColHight;
 		private Vector3 orgVectColCenter;
 		public Animator anim;							
