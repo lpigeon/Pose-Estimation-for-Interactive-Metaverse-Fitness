@@ -14,12 +14,12 @@ Virtual reality for fitness and health care applications require accurate and re
 * Unity
 
 ## Version
-v1: Basic network and spatial configuration using Photon2 and unitychan_dynamic_locomotion
-v2: pose estimation based on 2 people
-v3: Pose estimation of 3 or more people, lobby, and character selection possible
-v4 : UI upgrade
-v5: Change the way data is read for pose estimation without delay on Unity
-yoroke: Final deployment
+* v1: Basic network and spatial configuration using Photon2 and unitychan_dynamic_locomotion
+* v2: pose estimation based on 2 people
+* v3: Pose estimation of 3 or more people, lobby, and character selection possible
+* v4 : UI upgrade
+* v5: Change the way data is read for pose estimation without delay on Unity
+* yoroke: Final deployment
 
 ## Reference
 * https://github.com/SrikanthVelpuri/tf-pose
