@@ -1,4 +1,4 @@
-# Pose Estimation for Interactive Metaverse Fitness(Capstone_Design_2022)
+# Pose Estimation for Interactive Metaverse Fitness(Capstone Design 2022)
 
 ## Abstract
 Virtual reality for fitness and health care applications require accurate and real-time pose estimation for interactive features. Yet, they suffer either a limited angle of view when using handset devices such as smartphones and VR gears for capturing human pose or a limited input interfaces when using distant imaging/computing devices such as Kinect. Our goal is to marry these two into an interactive metaverse system with human pose estimation. This paper describes the design and implementation of Yoroke, a distributed system designed specifically for human pose estimation for interactive metaverse system. It consists of a remote imaging device for estimating human pose, and a handset device for implementing a multi-user interactive metaverse system. We have implemented and deployed Yoroke on embedded platforms and evaluated its effectiveness in delivering accurate and real-time pose estimation for multi-user interactive metaverse platform.
@@ -19,7 +19,7 @@ Virtual reality for fitness and health care applications require accurate and re
 * v3: Pose estimation of 3 or more people, lobby, and character selection possible
 * v4 : UI upgrade
 * v5: Change the way data is read for pose estimation without delay on Unity
-* yoroke: Final deployment
+* yoroke: yoroke is an integrated version that combines real-time multi-person pose estimation, flexible network configuration, intuitive character selection UI, and a delay-free data processing pipeline.
 
 ## Reference
 * https://github.com/SrikanthVelpuri/tf-pose
